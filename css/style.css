@@ -1,0 +1,57 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, a, header, main, section, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Styling header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling main */
+main {
+    padding: 20px;
+}
+
+/* Styling section */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
