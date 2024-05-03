@@ -1,3 +1,46 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; /* Mengatur arah tata letak ke vertikal */
+    height: 100%; /* Mengisi seluruh tinggi header */
+}
+
+h1 {
+    margin-bottom: 20px; /* Menambahkan margin bawah agar tidak terlalu rapat dengan formulir */
+    text-align: center; /* Mengatur teks ke tengah */
+}
+
+.login-options {
+    display: flex;
+    gap: 10px;
+}
+
+.login-form,
+.signup-form {
+    display: none; /* Menyembunyikan kedua formulir secara default */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form button {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
 /* Resetting default margin and padding */
 body, h1, h2, p, a, header, main, section, footer {
     margin: 0;
