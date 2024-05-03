@@ -2,56 +2,71 @@
 body, h1, h2, p, a, header, main, section, footer {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Setting font family and size */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
+    background-color: #f8f9fa;
 }
 
 /* Styling header */
 header {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
+}
+
+h1 {
+    font-size: 28px;
 }
 
 /* Styling main */
 main {
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Styling section */
 section {
-    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
 }
 
 h2 {
-    color: #333;
+    color: #343a40;
+    margin-bottom: 10px;
 }
 
 p {
-    color: #666;
+    color: #6c757d;
+    margin-bottom: 15px;
 }
 
 a {
     color: #007bff;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #0056b3;
 }
 
 /* Styling footer */
 footer {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 0;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
