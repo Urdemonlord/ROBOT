@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot Enthusiasts Community</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
     <header>
@@ -35,46 +38,74 @@
         </div>
     </header>
     <main>
-        <section>
-            <h2>Learning Robotics</h2>
-            <p>Learn about the latest developments in robotics technology and how to build your own robots.</p>
-            <a href="learning.html">Learn More</a>
-        </section>
-        <section>
-            <h2>Discussion Forum</h2>
-            <p>Join the community and discuss all things robotics with other enthusiasts.</p>
-            <a href="forum.html">Join the Discussion</a>
-        </section>
-        <section>
-            <h2>Events and Competitions</h2>
-            <p>Find out about upcoming robotics events and competitions in your area.</p>
-            <a href="events.html">View Events</a>
-        </section>
-        <section>
-            <h2>Project Gallery</h2>
-            <p>Explore a gallery of robotics projects and get inspired to build your own.</p>
-            <a href="gallery.html">View Gallery</a>
-        </section>
-        <section>
-            <h2>Online Component Store</h2>
-            <p>Shop for robotics components and build your own robots.</p>
-            <a href="store.html">Shop Now</a>
-        </section>
-        <section>
-            <h2>Training and Workshop Schedules</h2>
-            <p>Check the schedule for upcoming training and workshop sessions.</p>
-            <a href="schedule.html">View Schedule</a>
-        </section>
-        <section>
-            <h2>Member and Alumni Profiles</h2>
-            <p>View profiles of current members and alumni of the robotics community.</p>
-            <a href="profiles.html">View Profiles</a>
-        </section>
-        <section>
-            <h2>Blog and Tips</h2>
-            <p>Read the latest blog posts and tips from the robotics community.</p>
-            <a href="blog.html">Read Blog</a>
-        </section>
+        <div class="carousel w-full">
+            <div id="item1" class="carousel-item w-full h-96">
+                <div>
+                    <h2 class="text-3xl font-bold">Learning Robotics</h2>
+                    <p class="mb-5">Learn about the latest developments in robotics technology and how to build your own robots.</p>
+                    <a class="bg-black text-white py-3 px-3" href="learning.html">Learn More</a>
+                </div>
+                
+            </div> 
+            <div id="item2" class="carousel-item w-full">
+               <div>
+                <h2 class="text-3xl font-bold">Discussion Forum</h2>
+                <p class="mb-5">Join the community and discuss all things robotics with other enthusiasts.</p>
+                <a class="bg-black text-white py-3 px-3" href="forum.html">Join the Discussion</a>
+               </div>
+            </div> 
+            <div id="item3" class="carousel-item w-full">
+              <div class="">
+                <h2 class="text-3xl font-bold">Events and Competitions</h2>
+                <p class="mb-5">Find out about upcoming robotics events and competitions in your area.</p>
+                <a class="bg-black text-white py-3 px-3" href="events.html">View Events</a>
+              </div>
+            </div> 
+            <div id="item4" class="carousel-item w-full">
+            <div class="">
+                <h2 class="text-3xl font-bold">Project Gallery</h2>
+                <p class="mb-5">Explore a gallery of robotics projects and get inspired to build your own.</p>
+                <a class="bg-black text-white py-3 px-3" href="gallery.html">View Gallery</a>                </div>
+          </div> 
+          <div id="item5" class="carousel-item w-full">
+            <div class="">
+                <h2 class="text-3xl font-bold">Online Component Store</h2>
+                <p class="mb-5">Shop for robotics components and build your own robots.</p>
+                <a class="bg-black text-white py-3 px-3" href="store.html">Shop Now</a>
+            </div>
+          </div> 
+          <div id="item6" class="carousel-item w-full">
+            <div class="">
+                <h2 class="text-3xl font-bold">Training and Workshop Schedules</h2>
+                <p class="mb-5">Check the schedule for upcoming training and workshop sessions.</p>
+                <a class="bg-black text-white py-3 px-3" href="schedule.html">View Schedule</a>
+            </div>
+          </div> 
+          <div id="item7" class="carousel-item w-full">
+            <div class="">
+                <h2 class="text-3xl font-bold">Member and Alumni Profiles</h2>
+                <p class="mb-5">View profiles of current members and alumni of the robotics community.</p>
+                <a class="bg-black text-white py-3 px-3" href="profiles.html">View Profiles</a>
+            </div>
+          </div> 
+          <div id="item8" class="carousel-item w-full">
+            <div class="">
+                <h2 class="text-3xl font-bold">Blog and Tips</h2>
+                <p class="mb-5">Read the latest blog posts and tips from the robotics community.</p>
+                <a class="bg-black text-white py-3 px-3" href="blog.html">Read Blog</a>
+            </div>
+          </div> 
+          </div>
+          <div class="flex justify-center w-full py-2 gap-2">
+            <a href="#item1" class="btn btn-xs">1</a> 
+            <a href="#item2" class="btn btn-xs">2</a> 
+            <a href="#item3" class="btn btn-xs">3</a> 
+            <a href="#item4" class="btn btn-xs">4</a>
+            <a href="#item5" class="btn btn-xs">5</a>
+            <a href="#item6" class="btn btn-xs">6</a>
+            <a href="#item7" class="btn btn-xs">7</a>
+            <a href="#item8" class="btn btn-xs">8</a>
+          </div>
     </main>
     <footer>
         <p>Copyright © 2024 Robot Enthusiasts Community</p>
