@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.user-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.bullet {
+    font-size: 24px;
+    color: #888;
+}
+
+.bullet:hover {
+    color: #000;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
